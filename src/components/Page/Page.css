@@ -1,0 +1,14 @@
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+    margin-right: 5em;
+    position: relative;
+    justify-content: center;
+    scroll-snap-align: start;
+    margin-top: -80px;
+    perspective: 500px;
+    transition: 350ms;
+    font-size: x-large;
+}
