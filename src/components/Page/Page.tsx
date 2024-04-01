@@ -1,6 +1,6 @@
-import type { JSX, PropsWithChildren } from "react";
-
 import "./Page.css";
+
+import type { JSX, PropsWithChildren } from "react";
 
 
 type PageProps = PropsWithChildren<{ id: string }>;

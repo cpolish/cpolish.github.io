@@ -1,11 +1,11 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Sidebar.css";
+
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import { useRef } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { JSX } from "react";
+import { useRef } from "react";
 
 import { useDetectOutsideClick } from "../../hooks";
-
-import "./Sidebar.css";
 
 
 interface SidebarProps {

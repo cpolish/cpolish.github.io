@@ -1,10 +1,10 @@
+import "./App.css";
+
 import type { JSX } from "react";
 
 import TopBar from "./components/TopBar/TopBar";
-import Intro from "./pages/Intro/Intro";
 import FeaturedProjects from "./pages/FeaturedProjects/FeaturedProjects";
-
-import "./App.css";
+import Intro from "./pages/Intro/Intro";
 
 
 const PAGES = [

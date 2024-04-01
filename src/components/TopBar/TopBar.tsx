@@ -1,12 +1,12 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./TopBar.css";
+
 import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { JSX } from "react";
+import { useState } from "react";
 
 import Sidebar from "../Sidebar/Sidebar";
-
-import "./TopBar.css";
 
 
 const NAV_LINKS = [
